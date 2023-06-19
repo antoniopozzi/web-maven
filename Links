@@ -18,3 +18,4 @@ python3 -c 'import pty;pty.spawn("/bin/bash")'
 
 cat * | grep -i passw*
 cat db.php
+find / -group bugtracker 2>/dev/null
