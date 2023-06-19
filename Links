@@ -5,3 +5,7 @@ https://github.com/Samsar4/CEH-v10-Study-Guide/blob/master/modules/3-System-Hack
 https://github.com/Samsar4/Ethical-Hacking-Labs/blob/master/5-System-Hacking/5-Escalating-Privileges.md
 
 https://github.com/hunterxxx/CEH-v12-Practical
+
+sudo apt install seclists
+gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u http://thetoppers.htb
+gobuster vhost -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://thetoppers.htb
