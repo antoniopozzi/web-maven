@@ -1,2 +1,2 @@
 # cloud
-Repositori di prova per corso cloud
+Repository di prova per corso cloud
